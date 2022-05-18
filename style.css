@@ -1,5 +1,5 @@
 /* index */
-body {
+/* body {
   background-image: url("skyatnight.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -10,64 +10,126 @@ body {
   border-color: aqua;
   margin: 30px;
   padding: 20px;
+} */
+
+body {
+  background-image: url("skyatnight.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    margin: 0;
 }
+
+#indexheader {
+    color: aqua;
+    border: 2px solid;
+    border-color: aqua;
+    margin: 50px;
+    margin-top: 100px;
+    padding: 20px;
+}
+
+
 #indexheader h1 {
   text-align: center;
   color: chocolate;
   font-size: 3em;
 }
+
+#indexheader h2 {
+  color: chocolate;
+  font-size: xx-large;
+}
 .social ul li a {
   color: darkgoldenrod;
-  font-size: larger;
+  font-size: x-large;
+  text-decoration: none;
 }
+
+.social ul li a:hover {
+  color: white;
+}
+
 .social ul li {
   display: inline-block;
   margin-left: 50px;
 }
 .einleitungfoto img {
-  border-image-width: auto;
+  width: 100%;
 }
 .blogheader h1 {
   text-align: center;
   color: chocolate;
-  font-size: 3em;
+  font-size: 75px;
 }
 .startseite a {
   color: darkgoldenrod;
-  font-size: larger;
+  font-size: xx-large;
+  margin-left: 25px;
 }
+
+.startseite a:hover {
+  color: darkgreen;
+}
+
 .hauptseite a {
   color: darkgoldenrod;
   font-size: larger;
 }
+
+.nasalogo {
+  width: 49%;
+  height: 750px;
+}
+
 .wikipedia iframe,
 h2 {
   display: inline-block;
 }
-.wikipedia p {
-  font-size: large;
+
+.wikipedia iframe {
+  width: 50%;
+  height: 750px;
 }
+
+.wikipedia p {
+  font-size: x-large;
+  color: white;
+}
+
 .wikipedia h2 {
   font-size: 2em;
+  color: chocolate;
+}
+
+.Artikel1, .Artikel2, .Artikel3 {
+  color: white;
+  font-size: x-large;
+}
+
+.Artikel1 h2, .Artikel2 h2, .Artikel3 h2 {
+  color: chocolate;
 }
 
 form {
-  width: 400px;
+  width: 40%;
   margin-top: 40px;
   margin-left: auto;
   margin-right: auto;
   padding: 40px 40px 40px 40px;
-  font-size: larger;
+  font-size: x-large;
   color: #C2B49B;
   border: solid 5px chocolate;
 }
 
 button {
   width: 45%;
-  margin: 8px;
+  margin: 15px;
   height: 30px;
   border-radius: 20px;
   background-color: #AEBEA1;
+  border: none;
 }
 
 button:nth-child(2) {
@@ -85,11 +147,57 @@ textarea {
 
 .alone {
   width: 100%;
-  height: 800px;
 }
 
 .headerform {
   text-align: center;
   width: 100%;
-  font-size: x-large;
+  font-size: x-large;}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  background-color: chocolate;
+}  
+.navbar ul li {
+  display: inline-block;
+  padding: 30px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  font-size: 25px;
+  color: #333738;
+  font-weight: bold;
+}
+
+.navbar ul li ul li {
+  display: none;
+}
+
+.navbar ul li a:hover {
+  color: white;
+}
+
+.icon {
+  position: absolute;
+  right: 40px;
+  top: 19px;
+}
+
+.smfoto {
+  margin: 100px;
+  padding: 50px;
+}
+
+.smfoto img {
+  width: 100%;
+}
+
+.smhead {
+  color: chocolate;
+  text-align: center;
+  font-size: 60px;
+  text-transform: uppercase;
+  margin-top: 100px;
 }
