@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    /* background-color: #2D2D2A; */
+}
+
+.nav1 {
+    position: sticky;
+    background-color: #9AC2C9;
+    height: 110px;
+    width: 100%; 
+}
+
+.nav1 ul {
+    margin-top: 0;
+    padding-top: 30px;
+}
+
+.nav1 ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.login {
+    position: absolute;
+    right: 40px;
+    background-color: #FFCB47;
+    padding: 10px;
+    width: 150px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.nav1 ul li a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #4A5043;
+}
+
+.nav1 ul li a i {
+    font-size: 45px;
+}
+
+.logo2 {
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.nav2 {
+    position: sticky;
+    background-color: #3F5E5A;
+    height: 100px;
+    width: 100%;
+    margin-top: -29px;
+}
+
+.nav2 ul {
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+.nav2 ul li {
+    display: inline-block;
+}
+
+.nav2 ul li a {
+    color: #20FC8F;
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 50px;
+}
+
+.nav2 ul li:nth-child(1) {
+    margin-left: 30px;
+}
+
+.nav2 ul li:nth-child(5) {
+    position: absolute;
+    right: 40px;
+}
+
+.search input, .search button {
+    font-size: 20px;
+    background-color: #20FC8F;
+}
+
+.search button {
+    cursor: pointer;
+}
+
+.featured-movie {
+    position: relative;
+    text-align: center;
+    margin: 40px 80px 0 80px;
+}
+
+.avengers {
+    width: 100%;
+    height: 900px;
+    opacity: 0.8;
+    box-shadow: rgb(57, 57, 221) 30px 30px 30px, rgb(57, 57, 221) -30px -30px 30px, rgb(57, 57, 221) 30px -30px 30px, rgb(57, 57, 221) -30px 30px 30px;
+}
+
+.lorem1 {
+    position: absolute;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: justify;
+    color: white;
+    bottom: 100px;
+    left: 45px;
+    right: 50%;
+}
+
+iframe:hover{ 
+	transform: scale(1.1)
+	}
+
+.line1 {
+    text-align: center;
+}    
+
+.line1 img {
+    padding: 30px;
+    width: 300px;
+    height: 450px;
+}
+
+.line1 a img:hover{
+    transform: scale(1.1);
+}
+
+.iframe1, .iframe2 {
+    text-align: center;
+}
+
+.iframe1 iframe, .iframe2 iframe {
+    padding: 30px;
+}
+
+.get-started {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 200px;
+}
+
+.get-started h1 {
+    font-size: 50px;
+}
+
+.get-started .p1 {
+    font-size: 30px;
+}
+
+.get-started .p2 {
+    font-size: 20px;
+}
+
+.form2 {
+    text-align: center;
+}
+
+.form2 input, .form2 button {
+    border: none;
+}
+
+.form2 input {
+    width: 500px;
+    height: 70px;
+    font-size: 30px;
+}
+
+.form2 button {
+    background-color: #e50914;
+    color: white;
+    font-size: 30px;
+    width: 250px;
+    height: 70px;
+    cursor: pointer;
+}
+
+.form2 button:hover {
+    background-color: #f12933;
+}
